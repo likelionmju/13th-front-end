@@ -1,0 +1,134 @@
+* {
+    color: #F2EFE7;
+}
+
+/* ---------------------------- header ---------------------------- */
+header {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006A71;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu-image:hover {
+    perspective: 0px;
+    transform: rotateY(360deg);
+    transition: 0.5s;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.menu-button {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #F2EFE7;
+    transition: 0.3s;
+}
+.menu-button:hover {
+    cursor: pointer;
+    color: #48A6A7;
+}
+
+input[name = "menu-tab"] {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    transition: 0.3s;
+}
+
+/* ---------------------------- main ---------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9ACBD0;
+    
+    height: auto;
+}
+
+.tab-content {
+    display: none;
+    margin: 10px;
+    padding: 20px;
+    background-color: #F2EFE7;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Home:checked ~ #Home_content,
+.About:checked ~ #About_content,
+.Hobby:checked ~ #Hobby_content,
+.Language:checked ~ #Language_content {
+    display: block;
+    background-color: #48A6A7;
+}
+
+.menu input:checked + label {
+    color: #48A6A7;
+}
+
+/* ---------------------------- main ---------------------------- */
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+}
+
+@media (max-width: 640px) {
+    .nav {
+        flex-wrap: wrap;
+    }
+    .menu {
+        display: none;
+        flex-flow: column wrap;
+
+        width: 100%;
+    }
+
+    #toggle:checked + .menu {
+        display: inline;
+    }
+
+    .menu-icon {
+        margin-right: 10px;
+        display: block;
+        color: #F2EFE7;
+        translate: 0.3s;
+    }
+    .menu-icon:hover {
+        cursor: pointer;
+        color: #48A6A7;
+    }
+}
