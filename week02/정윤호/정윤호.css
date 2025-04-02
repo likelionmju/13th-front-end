@@ -52,6 +52,18 @@ body{
     list-style: none;
     display: flex;
 }
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .section1{
     font-size: 20px;
