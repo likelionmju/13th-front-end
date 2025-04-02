@@ -93,6 +93,21 @@ body {
     color: #48A6A7;
 }
 
+.hobby-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image {
+    height: 10rem;
+    transition: 0.5s;
+    background-size: cover;
+}
+.image:hover {
+    transform: scale(1.1);
+}
+
 /* ---------------------------- main ---------------------------- */
 
 footer {

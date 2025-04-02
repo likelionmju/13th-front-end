@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/week03/html.css">
+</head>
+
+<body>
+    <h1>숫자 맞추기 게임!</h1>
+    <p>1~100 사이의 숫자를 맞춰보세요!</p>
+    <input type="text" name="user_number_input" id="user_number_input" placeholder="1~100 사이의 숫자" />
+    <button type="submit" id="submit_button" onclick="SubmitNumber()">맞추기!</button>
+    <br>
+    <button type="button" id="reset_number" onclick="ResetNumber()">숫자 초기화하기!</button>
+    <p id="infor">입력해보세요!</p>
+    <div id="result">
+        <p>입력한 횟수는 <span id="input_count"></span>입니다!</p>
+        <p>사용한 숫자는 <span id="used_number"></span>입니다!</p>
+        <p>다시 시작하라면 숫자 초기화하기를 눌러주세요!</p>
+    </div>
+    <script src="/week03/html.js"></script>
+</body>
+
+</html>
