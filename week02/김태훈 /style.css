@@ -1,3 +1,5 @@
+/* 복습 이라고 검색하셔서 따라 내려가시면 webkit과 관련해 공부한 내용을 메모해두었습니다!*/
+
 /* 상단바 hover 애니메이션 */
 /* 마우스 호버 시 글자 크기와 투명도를 조절하는 애니메이션 정의 */
 @keyframes ani { 
@@ -248,6 +250,17 @@
     background: linear-gradient(to bottom, red, orange, yellow, lightgreen, rgb(3, 97, 135), indigo, purple);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* 복습 */
+    /* Webkit은 "사파리"를 위한 HTML/CSS 웹 브라우저 렌더링 엔진*/
+    /* 새로운 CSS 문법이 도입됐지만 아직 사파리가 그 문법을 완전하게 지원하지 못할때 사용*/ 
+    /* -webkit이라는 접두어를 붙여 Webkit을 확장하는 것. */
+    /* 따라서, webkit을 붙이지 않아도 코드는 실행되는 것이고, */
+    /* 어디서든 같은 효과를 주기 위해 붙이는 것이다! */
+
+    /* AI 자동입력..??*/
+    /* webkit을 붙이지 않으면 크롬, 엣지, 파이어폭스 등에서 실행되는 코드가 된다. */
+    /* webkit을 붙이면 사파리에서만 실행되는 코드가 된다. */
+    /* -webkit-text-fill-color: transparent;는 텍스트에 그라디언트 효과를 주기 위해 사용 */
     font-weight: bold;
 
   }
