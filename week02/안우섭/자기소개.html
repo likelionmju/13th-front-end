@@ -7,39 +7,57 @@
     <link rel="stylesheet" href="자기소개.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#home">안녕하세요</a></li>
-        <li><a href="#about">자기소개</a></li>
-        <li><a href="#contact">연락처</a></li>
-        <li>
-          <a
-            href="https://www.youtube.com/watch?v=xv3XNJGLoU8&list=LL&index=56&t=17231s&ab_channel=HelloKorea"
-            >ㅋㅋ</a
-          >
-        </li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo">
+            <img src="./images.png" alt="로고" />
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#about">자기소개</a></li>
+            <li><a href="#contact">연락처</a></li>
+            <li><a href="#home">강아지 기엽다</a></li>
 
-    <section id="home">
-      <h1>안녕하세요</h1>
-      <h2>👋-_-👋</h2>
-      <img src="./abc.png" alt="ㅇㅇ" />
-    </section>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=xv3XNJGLoU8&list=LL&index=56&t=17231s&ab_channel=HelloKorea"
+                target="_blank"
+                >ㅋㅋ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <section id="about">
-      <h2>자기소개</h2>
-      <div class="intro-box">
-        <p><strong>취미:</strong> 영화, 유튜브 보기</p>
-        <p><strong>좋아하는 운동:</strong> 걷기</p>
-        <p><strong>좋아하는 계절:</strong> 여름</p>
-        <p><strong>올해 목표:</strong> 처음부터 끝까지 혼자 다 하기</p>
-      </div>
-    </section>
+    <main>
+      <section id="about" class="section">
+        <h2>자기소개</h2>
+        <article class="intro-box">
+          <p><strong>취미:</strong> 영화, 유튜브 보기</p>
+          <p><strong>좋아하는 운동:</strong> 걷기</p>
+          <p><strong>좋아하는 계절:</strong> 여름</p>
+          <p><strong>올해 목표:</strong> 처음부터 끝까지 혼자 다 하기</p>
+        </article>
+      </section>
 
-    <section id="contact">
-      <h2>연락처</h2>
-      <p>이메일: <strong>dksdntjq@mju.ac.kr</strong></p>
-    </section>
+      <section id="contact" class="section">
+        <h2>연락처</h2>
+        <address>이메일: <strong>dksdntjq@mju.ac.kr</strong></address>
+      </section>
+
+      <section id="home" class="section">
+        <h1>강아지 기엽다</h1>
+
+        <img src="./강아지.jpg" alt="ㅇㅇ" class="main-img" />
+        <img src="./강아지2.jpeg" alt="ㅇㅇ" class="main-img" />
+      </section>
+    </main>
+
+    <footer>
+      <p style="text-align: center; padding: 2rem">
+        화이팅 화이팅 화이팅 화이팅 화이팅 화이팅 화이팅 화이팅 화이팅
+      </p>
+    </footer>
   </body>
 </html>
