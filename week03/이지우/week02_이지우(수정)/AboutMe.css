@@ -1,0 +1,63 @@
+nav {
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218,246,255);
+    
+}
+
+body{
+    background-color: #F0F8FF;
+    font-family: 'ChosunGu';
+}
+
+div{
+    text-align: center;
+    margin: 30px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+li{
+    margin: 40px;
+    font-size: 25px;
+    
+}
+
+.nv:hover{
+    color: cornflowerblue;
+    
+}
+
+
+li:hover{
+    transform: scale(1.4);
+    transition-duration: transform .3s;
+}
+
+a{
+    text-decoration-line: none;
+    font-size:20px;
+    
+}
+.ll{
+    width: 80px;
+    padding: 30px;
+    background-image: none;
+}
+
+.my{
+    width:240px;
+}
+
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
