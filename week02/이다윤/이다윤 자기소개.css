@@ -1,191 +1,193 @@
-/* font */
-
+/* 폰트 등록 */
 @font-face {
-    font-family: 'SUITE-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400; /* 폰트 굵기 */
+  font-style: normal; /* 기울이지 않음 */
 }
 
 @font-face {
-    font-family: 'KBO-Dia-Gothic_bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+  font-family: "KBO-Dia-Gothic_bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
 }
 
-
-/* 전체 style */
-
+/* 전체 레이아웃 설정 */
 body {
-    font-family: 'SUITE-Regular';
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgb(255, 237, 215);
+  font-family: "SUITE-Regular";
+  width: 80%;
+  margin: 0 auto; /* 가운데 정렬 */
+  background-color: rgb(255, 237, 215);
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit; /* 부모의 글자 색상 상속 */
+  text-decoration: none; /* 밑줄 제거 */
 }
 
 ul,
 li {
-    margin: 0;
-    font-size: 20px;
+  margin: 0;
+  font-size: 20px;
 }
 
 .logoFont {
-    font-family: 'KBO-Dia-Gothic_bold';
+  font-family: "KBO-Dia-Gothic_bold";
 }
 
-
-/* 네비게이션 바 */
-
+/* ========================== */
+/* 헤더: 네비게이션 영역     */
+/* ========================== */
 .navbar {
-    background-color: rgb(255, 237, 215);
-    height: 70px;
-    line-height: 70px;
-    position: fixed;
-    width: 80%;
-    margin: 0 auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: rgb(255, 237, 215);
+  height: 70px;
+  line-height: 70px;
+  /* 한 줄의 높이를 지정
+  (글자가 줄 전체 높이를 70px로 인식해서 
+  수직 가운데 정렬된 것처럼 보이게 됨 */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0; /* 상단 고정 위치 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo {
-    font-size: 25px;
-    font-style: italic;
+.navbar .logo {
+  font-size: 25px;
+  font-style: italic; /* 기울임 */
 }
 
-.menu {
-    display: flex;
+.navbar .menu {
+  display: flex;
 }
 
-.menu p {
-    margin-right: 8px;
-    margin-left: 8px;
+.navbar .menu p {
+  margin: 0 8px;
 }
 
-
-/* articleA */
-
-.Acontent {
-    font-size: 17px;
-    word-break: keep-all;
-}
-
+/* ========================== */
+/* articleA: 자기소개 + 스킬 */
+/* ========================== */
 .articleA {
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
 
-.articleA>div {
-    width: 45%;
+.articleA > div {
+  width: 45%; /* 각 요소 너비 반반 */
 }
 
-.mainLeft {
-    text-align: center;
+.articleA .mainLeft {
+  text-align: center;
 }
 
-.mainLeft img {
-    width: 80%;
+.articleA .mainLeft img {
+  width: 80%;
 }
 
-.title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.articleA .mainRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.mainRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.articleA .title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
+.articleA .Acontent {
+  font-size: 17px;
+  word-break: keep-all; /* 단어 줄바꿈 안함 */
+}
 
-/* articleB */
-
+/* ========================== */
+/* articleB: 가치관 섹션     */
+/* ========================== */
 .articleB {
-    min-height: 80vh;
+  min-height: 80vh;
 }
 
-.valueTitle {
-    font-size: 30px;
+.articleB .valueTitle {
+  font-size: 30px;
+  margin-top: 30px;
 }
 
-.valueContent {
-    display: flex;
-    align-items: center;
-    margin: 50px;
+.articleB .valueContent {
+  display: flex;
+  align-items: center;
+  margin: 50px;
 }
 
-.valueContentImg {
-    width: 20%;
+.articleB .valueContentImg {
+  width: 20%;
 }
 
-.valueContentImg img {
-    height: 150px;
-    width: 200px;
-    border-radius: 50%;
+.articleB .valueContentImg img {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
 }
 
-.valueContentIntro {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin-left: 50px;
+.articleB .valueContentIntro {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* 남은 공간 1비율만큼 채움 */
+  /* valueContentImg 옆의 텍스트 영역이 flex-grow:1을 
+  가지므로, 남은 공간을 유연하게 차지 */
+  margin-left: 50px;
 }
 
-.introTitle {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.articleB .introTitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-
-/* articleC */
-
-.articleC {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* ========================== */
+/* footer: 연락처 영역       */
+/* ========================== */
+.end {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact div {
-    margin: 10px;
+  margin: 10px;
 }
 
-.contactMe {
-    font-size: 50px;
-    border-bottom: 8px solid black;
-    font-weight: bold;
+.contact .contactMe {
+  font-size: 50px;
+  border-bottom: 8px solid black;
+  font-weight: bold;
 }
 
-.contactLink {
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
+.contact .contactLink {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0 10px;
 }
 
-.contactLast {
-    text-align: center;
-    font-size: 18px;
+.contact .contactLast {
+  text-align: center;
+  font-size: 18px;
 }
