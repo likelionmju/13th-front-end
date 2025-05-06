@@ -37,10 +37,8 @@ function renderList() {
 
   todos.forEach(({ id, text }) => {
     const li = document.createElement('li');
-    li.innerHTML = `
-      ${text}
-      <button data-id="${id}">삭제</button>
-    `;
+    li.innerHTML = 
+    `${text} <button data-id="${id}">삭제</button>`;
     list.appendChild(li);
   });
 }

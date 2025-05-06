@@ -137,7 +137,7 @@ Promise.reject("에러 발생")
     .then(() => {
         console.log("성공!");
     })
-    .catch(err => {
+    .catch((err) => {
         console.log("잡힌 에러:", err);
     })
     .then(() => {
@@ -170,6 +170,10 @@ Btn.addEventListener('click', () => {
     console.log("버튼이 클릭되었습니다!")
 })
 
+Btn.onclick = function () {
+    console.log("버튼이 클릭되었습니다!")
+}
+
 // DOM조작과 Event처리 문제 2
 const colorChangeBtn = document.getElementById("colorChangeBtn");
 
@@ -191,7 +195,7 @@ myInput.addEventListener('keyup', (event) => {
 })
 
 // DOM조작과 Event처리 문제 4
-const hiverBox = document.getElementById("hoverBox")
+const hoverBox = document.getElementById("hoverBox")
 
 hoverBox.addEventListener('mouseover', () => {
     hoverBox.style.backgroundColor = 'skyblue'
@@ -217,7 +221,7 @@ addButton.addEventListener("click", () => {
     // messageContainer의 자식으로 추가
     messageContainer.appendChild(newMessage);
 
-    // 입력창 비우기 (선택)
+    // 입력창 비우기
     userInput.value = "";
   }
 });

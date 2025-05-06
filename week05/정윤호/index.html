@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="qna.css" />
+    <link rel="stylesheet" href="result.css" />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <title>개발 유형 테스트</title>
+  </head>
+
+  <body>
+    <div id="sections-container">
+      <!-- main -->
+      <section class="section" id="main">
+        <div id="main-mju-text-container">
+          <span class="main-mju-text">LIKELION X MJU(SEOUL)</span>
+          <span class="main-mju-text">13th</span>
+        </div>
+        <div id="main-title-container">
+          <div id="title-wrapper">
+            <span>나는 어떤</span>
+            <span>프로그래밍 언어일까 ?</span>
+          </div>
+        </div>
+        <img id="main-image" src="sample-main-image.png"></img>
+        <button id="start-button" onclick="start()">테스트하러 가기</button>
+      </section>
+
+      <!-- qna -->
+      <section class="section" id="qna">
+        <div id="status-container">
+          <div id="status-number"></div>
+          <div id="status-bar-container">
+            <div id="status-bar"></div>
+          </div>
+        </div>
+        <div id="question-box"></div>
+        <div id="answer-box"></div>
+      </section>
+
+      <!-- result -->
+      <section class="section" id="result">
+        <div id="result-name"></div>
+        <div id="result-title"></div>
+        <div id="result-desc-container">
+          <p id="result-desc"></p>
+        </div>
+      </section>
+
+      <!-- js -->
+      <script src="data.js"></script>
+      <script src="start.js"></script>
+    </div>
+  </body>
+</html>

@@ -20,23 +20,18 @@ loginId.addEventListener("keyup", color);
 password.addEventListener("keyup", color);
 
 
-// GPT
 const popup = document.getElementById("login-popup");
 const loginSection = document.getElementById("login-section");
 const confirmBtn = document.getElementById("confirm-btn");
 
 // 로그인 버튼 클릭 시 팝업 띄우기
 loginBtn.addEventListener("click", () => {
-  // 로그인 조건 충족 시에만 팝업 띄움 (여기선 단순 시뮬레이션)
-  loginSection.style.display = "block"; // 힌트에 따라 flex → block
-  popup.style.display = "flex";         // 팝업창 block → flex
+  // 로그인 조건 충족 시에만 팝업 띄움
+  loginSection.style.display = "block"; 
+  popup.style.display = "flex";         
 });
 
-// 확인 버튼 클릭 시 다시 로그인 화면으로
-confirmBtn.addEventListener("click", () => {
-  loginSection.style.display = "flex";  // 로그인 화면 block → flex
-  popup.style.display = "none";         // 팝업창 flex → none
-});
+
 // 확인 버튼 클릭 시 다시 로그인 화면으로
 confirmBtn.addEventListener("click", () => {
     loginSection.style.display = "flex";  // 로그인 화면 보이기
