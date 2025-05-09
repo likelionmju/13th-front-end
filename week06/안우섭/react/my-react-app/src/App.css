@@ -1,0 +1,25 @@
+/* Optional: style.css */
+
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+.viewer {
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin: 0px auto;
+  width: 400px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.controller {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 420px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
