@@ -1,0 +1,16 @@
+#count{
+  background-color: lightgrey;
+  width: 500px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+#click{
+  background-color: lightgrey;
+  width: 500px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+}
