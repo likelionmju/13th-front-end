@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+}
+.viewer-box {
+  width: 500px;
+  height: 150px;
+  background-color: #bfbfbf;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.controller-box {
+  width: 500px;
+  height: 100px;
+  background-color: #bfbfbf;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
