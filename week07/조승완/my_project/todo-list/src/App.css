@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    padding: 80px;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    width: 70%;
+}
