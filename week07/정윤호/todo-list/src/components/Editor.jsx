@@ -11,17 +11,17 @@ const Editor = ({onCreate}) => {
 
     const onKeyDown = (e) => {
         if(e.keyCode === 13){
-            onSubmit();
+            onSubmit(); // 엔터 시 제출 실행
         }
     }
 
     const onSubmit = () => {
         if(content ==="") {
-            contentRef.current.focus();
+            contentRef.current.focus(); // 비었으면 입력창에 포커스
             return;
         }
-        onCreate(content);
-        setContent("");
+        onCreate(content); // 상위 컴포넌트에 전달
+        setContent(""); // 입력창 초기화
     }
 
   return (

@@ -1,4 +1,3 @@
-import './App.css';
 import Viewer from './components/Viewer';
 import Controller from './components/Controller';
 import React, { useState } from 'react';

@@ -31,7 +31,8 @@ const List = ({ todos, onUpdate, onDelete }) => {
         placeholder="검색어를 입력하세요"
       />
       <div className="todos_wrapper">
-        {filteredTodos.map((todo) => {
+        {filteredTodos.map((todo) => { //filteredTodos 는 현재 보여줄 할 일 목록 배열 
+        // map 메서드는 배열의 각 요소에 대해 함수를 실행하고, 그 결과 새로운 배열을 반환
           return <TodoItem key={todo.id} {...todo} onUpdate={onUpdate} onDelete={onDelete} />;
         })}
       </div>
