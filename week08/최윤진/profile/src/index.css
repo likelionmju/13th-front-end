@@ -1,0 +1,12 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "myfont";
+  src: url("/font/hamback.ttf");
+}
+
+@font-face {
+  font-family: "kakaofont";
+  src: url("/font/KakaoSmallSans-Bold.ttf");
+}
