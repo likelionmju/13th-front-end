@@ -1,0 +1,288 @@
+[33mcommit 74034fb059b937d6e164941e883b2daf0f703b1a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: nacho-0 <iridium2827@gmail.com>
+Date:   Tue May 13 14:32:11 2025 +0900
+
+    week06_최윤진
+
+[33mcommit ccb3274ff1545c21601122b4a5b46b5c6c37ce8f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: e4b8ac4 16710a7
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Mon May 5 19:32:01 2025 +0900
+
+    Merge pull request #33 from BEOMJIN754/main
+    
+    [Chore] .gitkeep
+
+[33mcommit 16710a782531de3690a600e3d472bc5c866e367d[m
+Author: dlqja <beomjin754@gmail.com>
+Date:   Mon May 5 19:30:25 2025 +0900
+
+    [Chore] .gitkeep
+
+[33mcommit e4b8ac43aa587d8d5e809b0c87837bf38d63e9f3[m
+Merge: 42fc89c 96c4f32
+Author: BEOMJIN754 <161280497+BEOMJIN754@users.noreply.github.com>
+Date:   Mon May 5 19:28:47 2025 +0900
+
+    Merge pull request #32 from wooseobb/main
+    
+    week05_안우섭
+
+[33mcommit 42fc89c576f75efbc1ae65c4d7cc3a84a7bd3225[m
+Merge: e572152 19d23b2
+Author: BEOMJIN754 <161280497+BEOMJIN754@users.noreply.github.com>
+Date:   Mon May 5 19:19:56 2025 +0900
+
+    Merge pull request #31 from zacsd123/main
+    
+    week05_조승완
+
+[33mcommit e57215290b29422e89d14d3cac6afbaafee0e4ea[m
+Merge: bd58a58 b9c0958
+Author: BEOMJIN754 <161280497+BEOMJIN754@users.noreply.github.com>
+Date:   Mon May 5 19:19:31 2025 +0900
+
+    Merge pull request #30 from dayun6530/main
+    
+    week05_이다윤
+
+[33mcommit bd58a580b38a63cc2ce01162ee61529b382632c9[m
+Merge: 3ad25a6 285c315
+Author: BEOMJIN754 <161280497+BEOMJIN754@users.noreply.github.com>
+Date:   Mon May 5 19:18:57 2025 +0900
+
+    Merge pull request #29 from nacho-0/main
+    
+    week04_최윤진
+
+[33mcommit 3ad25a642d143e1bf6a1f4b3905b31bb312cb00a[m
+Merge: 890c382 167c84e
+Author: BEOMJIN754 <161280497+BEOMJIN754@users.noreply.github.com>
+Date:   Mon May 5 19:18:34 2025 +0900
+
+    Merge pull request #28 from Jiwoo-Leee/main
+    
+    week05_이지우
+
+[33mcommit 890c382d910ca5ce48e763a26d79aea037c7767a[m
+Merge: 0d136e5 ff7f005
+Author: BEOMJIN754 <161280497+BEOMJIN754@users.noreply.github.com>
+Date:   Mon May 5 19:17:58 2025 +0900
+
+    Merge pull request #27 from Yuno-Jung/main
+    
+    week05_정윤호
+
+[33mcommit 0d136e54c0017e6f42bd4011a8de827c8d9b692e[m
+Merge: 54910d5 df2f8bf
+Author: BEOMJIN754 <161280497+BEOMJIN754@users.noreply.github.com>
+Date:   Mon May 5 19:15:37 2025 +0900
+
+    Merge pull request #26 from sleepyencoder/main
+    
+    김태훈_week04
+
+[33mcommit 19d23b26dde61a3e9e09a009c4dbbe2e3a9ca04a[m
+Author: zacsd123 <swan823@naver.com>
+Date:   Mon May 5 18:07:11 2025 +0900
+
+    week05_조승완
+
+[33mcommit 96c4f3238fdada033c111ef664b032ff16224350[m
+Author: wooseob <dksdntjq3285@naver.com>
+Date:   Mon May 5 18:06:33 2025 +0900
+
+    week05_안우섭
+
+[33mcommit 285c315d1845376c77482b7816ff534d1c64b76e[m
+Author: nacho-0 <iridium2827@gmail.com>
+Date:   Mon May 5 18:03:06 2025 +0900
+
+    week05_최윤진
+
+[33mcommit e18777e808549a42902b2c0c41a1fdc056494dab[m
+Author: zacsd123 <swan823@naver.com>
+Date:   Mon May 5 17:53:28 2025 +0900
+
+    week05_조승완
+
+[33mcommit b9c09586c9349cb674dc10ce952a551bfdb3034c[m
+Merge: 0e730fa 54910d5
+Author: dayun6530 <dlekdbs6530@gmail.com>
+Date:   Mon May 5 17:47:58 2025 +0900
+
+    Merge branch 'likelionmju:main' into main
+
+[33mcommit 0e730fa3483ab391e495ec6ce257890dd78bc64b[m
+Author: dayun6530 <dlekdbs6530@gmail.com>
+Date:   Mon May 5 17:46:28 2025 +0900
+
+    homework4,5
+
+[33mcommit 92535ac25afbd113cd3eb99a5bc31df4dcbb1e16[m
+Author: nacho-0 <iridium2827@gmail.com>
+Date:   Mon May 5 17:36:13 2025 +0900
+
+    week04_최윤진
+
+[33mcommit df2f8bfbe4f9fdc5a3e041cccae41dfc288b71d7[m
+Author: sleepyencoder <kthkth38@naver.com>
+Date:   Mon May 5 17:21:56 2025 +0900
+
+    week05_김태훈
+
+[33mcommit 167c84eeee78a56f201cfab89d0dac2833af8da3[m
+Author: Jiwoo-Leee <dlwldn0126@gmail.com>
+Date:   Mon May 5 16:29:29 2025 +0900
+
+    week05_이지우
+
+[33mcommit 2a392600bdf72f90f9b5480659236cce289aa63c[m
+Merge: db2de0e 54910d5
+Author: sleepyencoder <92447177+sleepyencoder@users.noreply.github.com>
+Date:   Mon May 5 13:40:01 2025 +0900
+
+    Merge branch 'likelionmju:main' into main
+
+[33mcommit db2de0ed9c4dd957aeccc6444a349d0984ed70de[m
+Author: sleepyencoder <kthkth38@naver.com>
+Date:   Mon May 5 13:39:19 2025 +0900
+
+    김태훈 week_05
+
+[33mcommit ff7f005fc68bb65add7b8376276d3c6415e07c71[m
+Merge: 888b4cc 54910d5
+Author: Yuno-Jung <duwn126@gmail.com>
+Date:   Sun May 4 23:18:26 2025 +0900
+
+    Merge branch 'likelionmju:main' into main
+
+[33mcommit 888b4cc18b0c04ef37327e82042f3e61cb0f82fd[m
+Author: Yuno-Jung <duwn126@gmail.com>
+Date:   Sun May 4 23:16:39 2025 +0900
+
+    homework4 && homework5
+
+[33mcommit 9d6b8f758c919b4aa81a07ab11054263c8029845[m
+Author: sleepyencoder <kthkth38@naver.com>
+Date:   Thu May 1 18:19:36 2025 +0900
+
+    김태훈_week04
+
+[33mcommit 54910d5cf48e27c7bea3df0298a8e6ff390070a0[m
+Merge: 787cf98 dc30d95
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Thu May 1 13:42:57 2025 +0900
+
+    Merge pull request #25 from zacsd123/main
+    
+    week04_조승완
+
+[33mcommit 787cf98094d91deada6e3d5840030e692b474e36[m
+Merge: 79c0199 693c817
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Thu May 1 13:42:48 2025 +0900
+
+    Merge pull request #24 from wooseobb/main
+    
+    week04_안우섭
+
+[33mcommit 79c019954c4ed7732f771f1d9a003004c2cd6133[m
+Merge: 362118d ada4a2f
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Thu May 1 13:42:38 2025 +0900
+
+    Merge pull request #23 from Jiwoo-Leee/main
+    
+    week04_이지우
+
+[33mcommit ada4a2f1baa71615208b31d835a16ad19dc55869[m
+Merge: 5cde8b6 362118d
+Author: Jiwoo Lee <164865998+Jiwoo-Leee@users.noreply.github.com>
+Date:   Mon Apr 28 14:16:30 2025 +0900
+
+    Merge branch 'likelionmju:main' into main
+
+[33mcommit dc30d95f422bc0a62cd3450e8d79daf87f716472[m
+Merge: c4adaba 362118d
+Author: zacsd123 <swan823@naver.com>
+Date:   Mon Apr 28 05:26:55 2025 +0900
+
+    week04_조승완:
+
+[33mcommit c4adabab1566c10a348eb3889236c64c7b9050fc[m
+Author: zacsd123 <swan823@naver.com>
+Date:   Mon Apr 28 05:11:51 2025 +0900
+
+    week04 조승완
+
+[33mcommit 693c8170e8731321795640c4ee0c191c3a6b7853[m
+Author: wooseob <dksdntjq3285@naver.com>
+Date:   Mon Apr 28 00:19:26 2025 +0900
+
+    week04_안우섭
+
+[33mcommit 5cde8b6daf4b36331dcafc97587ec033c5c2177d[m
+Author: Jiwoo-Leee <dlwldn0126@gmail.com>
+Date:   Sun Apr 27 23:45:43 2025 +0900
+
+    week04_이지우
+
+[33mcommit 362118da8f93e84e6284eedef0d2f952b0e1eb1d[m
+Author: yeilkk <yeil99@naver.com>
+Date:   Sun Apr 27 22:38:19 2025 +0900
+
+    fix: 폴더명 오류
+
+[33mcommit 30f1ccecece41a54255555cee6c6d83d98aac3d7[m
+Merge: 26f12a1 8a8e722
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Sun Apr 27 20:39:37 2025 +0900
+
+    Merge pull request #22 from sleepyencoder/main
+    
+    김태훈week02오류수정
+
+[33mcommit 8a8e722a9a1c4693957806669d30457be24a6abe[m
+Author: sleepyencoder <kthkth38@naver.com>
+Date:   Thu Apr 24 21:59:18 2025 +0900
+
+    김태훈week02오류수정
+
+[33mcommit 26f12a1cbb335e3f7f5907593c22977515779979[m
+Author: yeilkk <yeil99@naver.com>
+Date:   Wed Apr 9 18:45:41 2025 +0900
+
+    set: week04 제출란
+
+[33mcommit 0dceaf13d1525d4cdf19ba9d923fda65875c5d36[m
+Merge: 030acbe d23555d
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Wed Apr 9 18:43:26 2025 +0900
+
+    Merge pull request #21 from Jiwoo-Leee/main
+    
+    week03_이지우
+
+[33mcommit 030acbe97ecc62959fe519416dde068f052dc5aa[m
+Merge: 91d8321 d4448d4
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Wed Apr 9 18:43:17 2025 +0900
+
+    Merge pull request #19 from wooseobb/main
+    
+    week03_안우섭
+
+[33mcommit 91d8321d4bf0c0ffca0746bd0341b4a580f8ee8f[m
+Merge: 70f3572 9876c70
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Wed Apr 9 18:43:08 2025 +0900
+
+    Merge pull request #18 from zacsd123/main
+    
+    week03_조승완
+
+[33mcommit 70f3572f4263bd0d395a5ff9044c37bac4d81867[m
+Merge: f070904 5bfeda2
+Author: yeil kim <96576724+yeilkk@users.noreply.github.com>
+Date:   Wed Ap

@@ -9,7 +9,6 @@ function App() {
   //입력이 바뀌었을 때 실행할 함수
   const handleChange = (e) => {
     setText(e.target.value); // A로부터 입력 받은 값으로 text 업데이트
-    console.log(e.target);
   };
 
   return (
