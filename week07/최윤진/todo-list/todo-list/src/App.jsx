@@ -36,16 +36,17 @@ function todoReducer(state, action) {
         todo.id === action.targetId ? { ...todo, isDone: !todo.isDone } : todo
       );
     case "DELETE":
-      return state.filter((todo) => todo.id !== action.targetId);
+      return state.filter((todo) => todo.id !== action.targetId); //조건 통과
     default:
       return state;
-  }
+  } //state = todos 객체
 }
 
 function App() {
-  const idRef = useRef(3); //idRef.current === 3
+  const idRef = useRef(3); // mockData와 겹치지 않는 id값으로 초기값 설정
   const [todos, dispatch] = useReducer(todoReducer, mockData); //todos 배열 저장.
   // todoReducer: 상태 변경 로직을 담은 함수/ mockData:초기 상태 값/ todos: 현재 상태/ dispatch: 상태를 업데이트하는 함수
+  //dispatch()를 사용해서 action 객체를 보냄.
   // 할 일 추가
   const onCreate = (content) => {
     const newTodo = {
